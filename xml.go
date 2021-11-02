@@ -92,7 +92,7 @@ type Target struct {
 	Reason        string `xml:"reason,attr" json:"reason"`
 }
 
-// Host represents a host that was scanned.
+// Host represents a host that was scanned.1
 type Host struct {
 	Distance      Distance      `xml:"distance" json:"distance"`
 	Mac           string        `xml:"mac" json:"mac"`
