@@ -95,7 +95,7 @@ type Target struct {
 // Host represents a host that was scanned.
 type Host struct {
 	Distance      Distance      `xml:"distance" json:"distance"`
-	Mac           string        `xml:"mac,attr" json:"mac"`
+	Mac           string        `xml:"mac" json:"mac"`
 	EndTime       Timestamp     `xml:"endtime,attr,omitempty" json:"end_time"`
 	IPIDSequence  IPIDSequence  `xml:"ipidsequence" json:"ip_id_sequence"`
 	OS            OS            `xml:"os" json:"os"`
